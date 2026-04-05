@@ -1,5 +1,5 @@
 // export const API_BASE = 'http://localhost:4000';
-export const API_BASE = 'http://72.61.231.39/tmbill';
+export const API_BASE = 'https://72.61.231.39/tmbill';
 export const fetchStores = async () => {
   const res = await fetch(`${API_BASE}/stores`);
   if (!res.ok) throw new Error('Failed to fetch stores');
